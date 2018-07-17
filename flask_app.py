@@ -21,7 +21,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-app.secret_key = "565656565656565656565665"
+app.secret_key = "5656565656565656565656"
 login_manager = LoginManager()
 login_manager.init_app(app)
 
